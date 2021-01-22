@@ -22,12 +22,12 @@ var scoreSound, catchSound, bounceOffSound;
 
 function preload()
   {
-    basketballCourt = loadImage("Animations/basketballCourt.jpg");
-    playerLeftImg = loadImage("Animations/playerleft.png");
-    playerRightImg = loadImage("Animations/playerright.png");
-    defenderLeftImg = loadImage("Animations/defenderLeft.png");
-    defenderRightImg = loadImage("Animations/defenderRight.png");
-    ballImg = loadImage("Animations/basketball.png");
+    basketballCourt = loadImage("basketballCourt.jpg");
+    playerLeftImg = loadImage("playerleft.png");
+    playerRightImg = loadImage("playerright.png");
+    defenderLeftImg = loadImage("defenderLeft.png");
+    defenderRightImg = loadImage("defenderRight.png");
+    ballImg = loadImage("basketball.png");
 
     scoreSound = loadSound("score.mp3");
     catchSound = loadSound("catch.mp3");
